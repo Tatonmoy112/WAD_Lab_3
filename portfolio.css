@@ -1,0 +1,475 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ddd;
+}
+
+/* For all margin */
+
+.container{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+/* start nav bar design */
+nav{
+    background-color: rgb(4, 4, 54);;
+    display: flex;
+    height: 3.5rem;
+    width: 100%;
+    color: #ddd;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 25rem;
+}
+
+
+.brand{
+    width: 30%;
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family:monospace;
+}
+.menu{
+    max-width: 70%;
+    display: flex;
+    gap: 24px;
+}
+
+.n-menu div{
+    max-width: auto ;
+    display: flex;
+    align-items: center;
+    
+}
+.menu div >a{
+    color: #ddd;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* end nav bar design */
+
+
+/* start body sec-1 */
+
+.per-info{
+    margin-top: 50px;
+    background-color: #ffffff;
+    display: flex;
+    padding: 1.5rem ;
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0,0.25);
+    /* justify-content: center; */
+}
+
+.profile-pic{
+    padding: 1.5rem ;
+    width: 30%;
+}
+.profile-pic > div{
+    border: 2px solid #333;
+    display: flex;
+    margin-left: -1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+.profile-pic > div > img{
+    border-radius: 50%;
+    height: 230px;
+    width: 230px;
+    border: 2px solid #333;
+}
+.profile-detail{
+    margin: 0rem 1rem 1rem 2rem;
+    gap: 0.25rem;
+}
+
+.part1,.part2{
+    margin-bottom: 2rem;
+}
+
+.profile-detail .part1{
+    margin-top: 2rem;
+    line-height: 0.005rem;
+}
+
+.profile-detail .part1 >span{
+    font-size: 1.2rem;
+    font-weight: bold;
+    word-spacing:0.2rem;
+    text-transform: uppercase;
+    color: rgb(4, 4, 54);
+}
+
+.profile-detail .part1 > h4{
+    text-transform: capitalize;
+    color: rgb(3, 3, 32);
+}
+
+.profile-detail .part1 > h4{
+    text-transform: capitalize;
+    color: rgb(3, 3, 32);
+}
+
+
+.part2-1{
+    margin-bottom: 1rem;
+}
+
+.part2-2{
+    display: flex;
+}
+.part2-2 div{
+    margin-right: 0.5rem;
+    border: 1px solid black;
+    padding: 0.1rem 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #333;
+    color: #ddd;
+    border-radius: 0.25rem;
+} 
+
+/* start end sec-1 --------------|-------------*/
+
+
+/* start body sec-2-------------- */
+
+.skill-info{
+    margin-top: 50px;
+    background-color: #ffffff;
+    /* display: flex; */
+    padding: 1.5rem ;
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0,0.25);
+}
+.skill-info >h1{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: 0.04em;
+    font-size:36px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.skill-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.skill-item-container{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.icon-container{
+    height: 70px;
+    width: 70px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+}
+
+.icon-container >img{
+    height: 70px;
+    width: 70px;
+}
+
+.info-container{
+    margin-left: 3rem;
+    line-height: 0.1rem;
+}
+.info-container >h1{
+    margin-top: 0.8rem;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    color: #333333;
+
+}
+.info-container >h3{
+    font-size: 18px;
+    font-weight: 500px;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    color: #333333;
+}
+.info-container > p{
+    font-size: 14px;
+    font-weight: 500px;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    color: #333333;
+}
+
+
+/* end sec-2 */
+
+
+/* start My Experiences  sec-3 */
+
+.my-experiences{
+    margin-top: 50px;
+    background-color: #ffffff;
+    /* display: flex; */
+    padding: 1.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0,0.25);
+}
+
+.my-experiences >h1{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: 0.04em;
+    font-size:36px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    
+}
+
+.my-experiences-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.my-experiences-info-container{
+    line-height: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.my-experiences-info-container > h1{
+    margin-top: 0.8rem;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    color: #333333;
+}
+.my-experiences-info-container > h3{
+    font-size: 18px;
+    font-weight: 500px;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    color: #333333;
+}
+.my-experiences-info-container > p{
+    font-size: 16px;
+    font-weight: 500px;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    color: #333333;
+    line-height: normal;
+}
+
+/* end My Experiences  sec-3 */
+
+
+/* start My portfolio  sec-4 */
+
+.my-portfolio{
+    margin-top: 50px;
+    background-color: #ffffff;
+    /* display: flex; */
+    padding: 1.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0,0.25);
+}
+
+.my-portfolio >h1{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: 0.04em;
+    font-size:36px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    
+}
+
+.my-portfolio-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.my-portfolio-item-container-img > img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    overflow: hidden;
+}
+.my-portfolio-item-container-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:1rem;
+    border-top: 0px;
+    border-bottom: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: #ddd;
+    border-style: solid;
+    /* padding-top: -0.5rem; */
+  
+    margin-top: -0.5rem;
+    
+}
+
+.my-portfolio-item-container-info >h1{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    color: #333;
+    word-spacing: 0.25em;
+    line-height: 0.9rem;
+    width: 100%;
+    margin-bottom: -0.1rem;
+}
+
+.my-portfolio-item-container-info >p{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-style: normal;
+    color: #333;
+    line-height: normal;
+    width: 100%;
+}
+
+/* Education */
+/* Educational Qualification Styles */
+
+.education {
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.25);
+}
+
+.qualification {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.education-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.qualification-info h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: rgb(4, 4, 54);
+}
+
+.qualification-info p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #333;
+}
+/* ------------------------------------ */
+/* Skill */
+/* Skills Page Styling */
+
+.skills {
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.skills h2 {
+    font-size: 1.8rem;
+    color: rgb(4, 4, 54);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.skills p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.skill-category {
+    margin-top: 20px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 0.25rem;
+}
+
+.skill-category h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skill-category ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.skill-category ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.skill-category ul li strong {
+    color: rgb(4, 4, 54);
+}
+/* --------------------- */
+/* Career Objective Page Styling */
+
+.career-objective {
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.career-objective h2 {
+    font-size: 1.8rem;
+    color: rgb(4, 4, 54);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.career-objective p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.objective {
+    margin-top: 20px;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 0.25rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
